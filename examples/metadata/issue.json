@@ -1,0 +1,29 @@
+{
+  "@context": "http://idpf.org/epub.jsonld",
+
+  "metadata": {
+    "@type": "http://schema.org/ComicIssue",
+    "identifier": "http://marvel.com/comics/issue/56122/ms_marvel_2015_7",
+    "title": "The Road to War",
+    "sort_as": "Road to War, The",
+    "belongs_to": {
+      "series": {
+        "name": "Ms. Marvel (2015)",
+        "position": 7
+      },
+      "story_arc": "The Road to Civil War II"
+    },
+    "author": "G. Willow Wilson",
+    "penciler": "Adrian Alphona",
+    "inker": "Adrian Alphona",
+    "colorist": "Ian Herring",
+    "letterer": "Joe Caramagna",
+    "editor": ["Axel Alonso", "Sana Amanat", "Charles Beacham"],
+    "schema:character": ["Absorbing Man", "Luke Cage", "Bruno Carrelli", "Ganke Lee", "Medusa", "Ms. Marvel", "Nova", "Spider-Man", "Ulysses"],
+    "language": "en",
+    "modified": "2016-10-31T17:00:00Z",
+    "published": "2016-07-01",
+    "publisher": "Marvel",
+    "numberOfPages": 32
+  }
+}
