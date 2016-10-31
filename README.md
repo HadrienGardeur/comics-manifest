@@ -79,9 +79,10 @@ The core metadata for the Comics Manifest are based on [the default context for 
 
 A comics is divided into multiple images, which are all listed in the `spine` of the manifest, in reading order.
 
-In addition to the normal requirements of a `spine`, all link objects have the following recommendations:
+In addition to the normal requirements of a `spine`, all link objects have the following additional requirements:
  
- - ...
+ - all link objects must point to bitmap images in the following formats: `image/jpeg`, `image/png` or `image/gif`
+ - all links objects should include both `height` and `width`
 
 ## Cover
 
