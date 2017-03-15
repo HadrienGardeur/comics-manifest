@@ -8,8 +8,9 @@
     "sort_as": "Road to War, The",
     "belongs_to": {
       "series": {
-        "name": "Ms. Marvel (2015)",
-        "position": 7
+        "name": "Ms. Marvel",
+        "position": 7,
+        "schema:startDate": 2015,
       },
       "story_arc": "The Road to Civil War II"
     },
