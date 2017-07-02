@@ -4,7 +4,7 @@
 
 ```json
 {
-  "@context": "http://idpf.org/epub.jsonld",
+  "@context": "http://readium.org/webpub/default.jsonld",
 
   "metadata": {
     "@type": "http://schema.org/GraphicNovel",
@@ -29,7 +29,7 @@
   },
 
   "links": [
-    {"rel": "self", "href": "http://hadriengardeur.github.io/comics-manifest/examples/PageBlanche/manifest.json", "type": "application/comics+json"}
+    {"rel": "self", "href": "http://example.com/manifest.json", "type": "application/comics+json"}
   ],
 
   "spine": [
@@ -99,9 +99,9 @@ A manifest can also specify the cover of a comics using the "cover" relationship
 > TODO: variant covers
 
 
-## Container
+## Package
 
-In order to facilitate distribution, both manifest and images can also be distributed using a container.
+In order to facilitate distribution, both manifest and images can also be distributed as packaged publications.
 
 In this case, all files (individual imagesand manifest) must be contained in a ZIP where the manifest is at the root of the zip and named `manifest.json`.
 
