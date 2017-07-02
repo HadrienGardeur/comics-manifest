@@ -34,10 +34,10 @@
 
   "spine": [
     {"href": "cover.jpg", "type": "image/jpeg", "height": 1577, "width": 1200, "rel": "cover", "title": "Couverture"}, 
-    {"href": "PageBlanche_Page_001.jpg", "type": "image/jpeg", "height": 1577, "width": 1200, "properties": "page-left"}, 
-    {"href": "PageBlanche_Page_002.jpg", "type": "image/jpeg", "height": 1577, "width": 1200, "properties": "page-right", "title": "Dédicaces"}, 
-    {"href": "PageBlanche_Page_003.jpg", "type": "image/jpeg", "height": 1577, "width": 1200, "properties": "page-left"}, 
-    {"href": "PageBlanche_Page_004.jpg", "type": "image/jpeg", "height": 1577, "width": 1200, "properties": "page-right"}, 
+    {"href": "PageBlanche_Page_001.jpg", "type": "image/jpeg", "height": 1577, "width": 1200, "properties": {"page": "left"}}, 
+    {"href": "PageBlanche_Page_002.jpg", "type": "image/jpeg", "height": 1577, "width": 1200, "properties": {"page": "right"}, "title": "Dédicaces"}, 
+    {"href": "PageBlanche_Page_003.jpg", "type": "image/jpeg", "height": 1577, "width": 1200, "properties": {"page": "left"}}, 
+    {"href": "PageBlanche_Page_004.jpg", "type": "image/jpeg", "height": 1577, "width": 1200, "properties": {"page": "right"}}, 
     {"href": "PageBlanche_Page_005.jpg", "type": "image/jpeg", "height": 1577, "width": 1200, "title": "Commencer la lecture"}, 
     {"href": "PageBlanche_Page_006.jpg", "type": "image/jpeg", "height": 1577, "width": 1200}, 
     {"href": "PageBlanche_Page_007.jpg", "type": "image/jpeg", "height": 1577, "width": 1200}, 
