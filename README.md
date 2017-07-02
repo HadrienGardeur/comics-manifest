@@ -64,14 +64,14 @@ Compared to CBZ, the Comics Manifest provides the following additional features:
 - comics specific display settings such as double pages or variant covers
 - provide panel by panel navigation, with support for transitions
 
-While the Comics Manifest is technically a profile of the [Web Publication Manifest] (https://github.com/HadrienGardeur/webpub-manifest), it has its own media type and file extension in order to maximize compatibilty with dedicated comics apps:
+While the Comics Manifest is technically a profile of the [Readium Web Publication Manifest](https://github.com/readium/webpub-manifest), it has its own media type and file extension in order to maximize compatibilty with dedicated comics apps:
 
 - its media type is `application/comics+json`
 - its file extension is `.comics-manifest`
 
 ## Metadata
 
-The core metadata for the Comics Manifest are based on [the default context for the Web Publication Manifest](https://github.com/HadrienGardeur/webpub-manifest/tree/master/contexts/default) with the following additional requirements:
+The core metadata for the Comics Manifest are based on [the default context for the Readium Web Publication Manifest](https://github.com/readium/webpub-manifest/tree/master/contexts/default) with the following additional requirements:
 
 - ...
 
